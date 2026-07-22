@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="笔画战阵 AI Native 游戏产品案例。">
+  <title>笔画战阵｜AI Native 游戏产品案例</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="reading-progress" aria-hidden="true"><span data-progress></span></div>
+
+  <aside class="case-rail" aria-label="案例章节导航">
+    <a class="rail-brand" href="#overview" aria-label="返回案例概览">
+      <strong data-bind="brand.title">笔画战阵</strong>
+      <small data-bind="brand.subtitle">STROKE BATTLE</small>
+    </a>
+    <nav class="rail-nav" data-nav-list></nav>
+  </aside>
+
+  <main id="main">
+    <section class="screen overview" id="overview" data-section="overview" aria-labelledby="overview-title">
+      <img class="overview-image" data-asset="overview.image" alt="笔画战阵自动战斗实机画面">
+      <div class="screen-overlay" aria-hidden="true"></div>
+      <div class="screen-inner overview-inner">
+        <p class="kicker" data-bind="overview.kicker"></p>
+        <h1 id="overview-title" data-bind="overview.title"></h1>
+        <p class="overview-thesis" data-bind="overview.thesis"></p>
+        <p class="overview-intro" data-bind="overview.intro"></p>
+        <div class="action-row" data-actions="overview"></div>
+        <div class="outcome-baseline" data-outcomes></div>
+      </div>
+    </section>
+
+    <section class="screen film" id="film" data-section="film" aria-labelledby="film-title">
+      <div class="screen-inner">
+        <header class="section-heading">
+          <p class="kicker" data-bind="film.kicker"></p>
+          <h2 id="film-title" data-bind="film.title"></h2>
+          <p data-bind="film.description"></p>
+        </header>
+        <figure class="film-frame">
+          <video controls preload="metadata" data-video aria-label="笔画战阵 20 秒宣传片">
+            <source data-video-source type="video/mp4">
+            当前浏览器无法播放视频。
+          </video>
+          <figcaption>
+            <span data-bind="film.meta"></span>
+            <strong data-bind="film.caption"></strong>
+          </figcaption>
+        </figure>
+        <ol class="transformation-line" data-transformation aria-label="玩法转化链路"></ol>
+      </div>
+    </section>
+
+    <section class="screen game" id="game" data-section="game" aria-labelledby="game-title">
+      <div class="screen-inner">
+        <header class="section-heading compact">
+          <p class="kicker" data-bind="game.kicker"></p>
+          <h2 id="game-title" data-bind="game.title"></h2>
+          <p data-bind="game.description"></p>
+        </header>
+        <div class="play-journey" data-game-steps></div>
+        <div class="game-action-band">
+          <a class="primary-action" data-game-link target="_blank" rel="noreferrer"></a>
+          <p data-bind="game.versionNote"></p>
+        </div>
+        <div class="evidence-strip" data-evidence aria-label="产品证据"></div>
+      </div>
+    </section>
+
+    <section class="screen method" id="method" data-section="method" aria-labelledby="method-title">
+      <div class="screen-inner">
+        <header class="section-heading compact">
+          <p class="kicker" data-bind="skill.kicker"></p>
+          <h2 id="method-title" data-bind="skill.title"></h2>
+          <p data-bind="skill.description"></p>
+        </header>
+        <ol class="workflow" data-workflow aria-label="可复用研发流程"></ol>
+        <div class="workflow-legend" data-workflow-legend></div>
+        <div class="skill-delivery">
+          <div class="gate-group">
+            <h3 data-bind="skill.gateTitle"></h3>
+            <dl data-gates></dl>
+          </div>
+          <div class="package-group">
+            <p class="package-version" data-bind="skill.packageVersion"></p>
+            <h3 data-bind="skill.packageTitle"></h3>
+            <p data-bind="skill.packageDescription"></p>
+            <a class="primary-action" data-skill-download download></a>
+          </div>
+        </div>
+        <p class="boundary-note" data-bind="skill.boundary"></p>
+        <div class="case-closing">
+          <div>
+            <span data-bind="skill.closingEyebrow"></span>
+            <h3 data-bind="skill.closingTitle"></h3>
+            <p data-bind="skill.closingDescription"></p>
+          </div>
+          <a class="secondary-action" data-closing-link href="#film"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
