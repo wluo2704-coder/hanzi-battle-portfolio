@@ -78,9 +78,9 @@ function renderContent() {
     <div><dt>${gate.label}</dt><dd>${gate.status}</dd></div>
   `).join("");
 
-  const download = document.querySelector("[data-skill-download]");
-  download.href = content.links.skillDownload;
-  download.textContent = content.skill.downloadLabel;
+  const repository = document.querySelector("[data-skill-download]");
+  repository.href = content.links.skillRepository;
+  repository.textContent = content.skill.repositoryLabel;
   document.querySelector("[data-closing-link]").textContent = content.skill.closingLabel;
 }
 

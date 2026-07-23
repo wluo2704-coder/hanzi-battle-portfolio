@@ -1,7 +1,7 @@
 window.PORTFOLIO_CONTENT = {
   meta: {
     title: "笔画战阵｜罗在远的游戏产品实验",
-    description: "我从零做了一款汉字造兵自动战斗游戏，并把从想法到可玩版本的过程整理成了一套研发 Skill。"
+    description: "我围绕一个汉字造兵的想法，完成玩法短片、可试玩游戏和一套可复用的游戏研发 Skill。"
   },
   brand: {
     title: "笔画战阵",
@@ -9,7 +9,7 @@ window.PORTFOLIO_CONTENT = {
   },
   links: {
     playable: "https://bihua-zhen-play.wluo2704.chatgpt.site",
-    skillDownload: "downloads/game-product-studio-v0.1.zip"
+    skillRepository: "https://github.com/wluo2704-coder/game-product-studio-skill"
   },
   navigation: [
     { id: "overview", number: "01", label: "概览", english: "OVERVIEW" },
@@ -18,22 +18,22 @@ window.PORTFOLIO_CONTENT = {
     { id: "method", number: "04", label: "研发 Skill", english: "REUSABLE SKILL" }
   ],
   overview: {
-    kicker: "个人游戏实验 · UNITY WEBGL",
+    kicker: "从一个玩法想法开始",
     title: "笔画战阵",
     thesis: "写下一个字，排出一支军队",
-    intro: "我想验证一件事：汉字的笔画能不能直接变成一套有策略空间的战斗玩法。于是我从零做了这个可试玩原型，把写字、造兵、编阵和自动战斗串成了完整的一局。",
+    intro: "我想验证：汉字的笔画能不能直接成为战斗规则。围绕这个想法，我先用短片讲清玩法，再把它做成一款可以完整玩一局的 Unity WebGL 游戏，最后将搭建过程整理成了一套游戏研发 Skill。",
     image: "assets/hero-battlefield-clean.png",
     imageAlt: "笔画战阵像素水墨山河与砚台战场",
     actions: [
       { label: "在线试玩", href: "playable", style: "primary" },
       { label: "看 20 秒玩法", href: "#film", style: "secondary" }
     ],
-    outcomes: ["20 秒玩法短片", "可试玩游戏原型", "一套研发 Skill"]
+    outcomes: ["把玩法讲清楚", "把游戏做出来", "把方法变成 Skill"]
   },
   film: {
-    kicker: "02 · 我怎样讲清玩法",
-    title: "先让人看懂，再谈系统",
-    description: "我先做了一支 20 秒短片，检查这套玩法能不能被快速理解：写下汉字，笔画变成兵种，调整阵型，然后看它们真正打起来。",
+    kicker: "02 · 先把想法讲清楚",
+    title: "20 秒，看懂汉字如何变成一场战斗",
+    description: "短片展示了最核心的一局：玩家写下汉字，系统根据笔画生成不同兵种，玩家组织阵容，然后进入自动战斗。",
     video: "assets/hanzi-battle-trailer-v1.2.mp4",
     poster: "assets/title.png",
     meta: "20 SEC · 16:9 · v1.2",
@@ -41,9 +41,9 @@ window.PORTFOLIO_CONTENT = {
     transformation: ["写下汉字", "识别笔画", "生成兵种", "排阵开战"]
   },
   game: {
-    kicker: "03 · 可以亲手验证的原型",
-    title: "我把想法做成了一局真的能玩的战斗",
-    description: "比起继续写方案，我更想先知道这套玩法是否成立。这个版本只保留最关键的三步：写下汉字、决定如何出兵、看自己的选择带来什么结果。",
+    kicker: "03 · 再让想法真正跑起来",
+    title: "看懂玩法之后，可以亲手玩一局",
+    description: "我把短片中的玩法做成了可试玩版本。你需要用有限笔画组成汉字，选择由字形生成的兵种，再通过阵容和战斗结果判断这次构筑是否有效。",
     steps: [
       { number: "01", title: "写下汉字", caption: "你写下的笔画，就是这一局的兵力来源", image: "assets/forge.png", alt: "玩家在田字格中使用笔画造字" },
       { number: "02", title: "组织出兵", caption: "不同字形会生成不同兵种和阵容", image: "assets/formation.png", alt: "玩家将生成兵种加入出战队列" },
@@ -54,35 +54,35 @@ window.PORTFOLIO_CONTENT = {
     evidence: ["Unity WebGL", "可以完整玩完一局", "每次选择都有结果"]
   },
   skill: {
-    kicker: "04 · 我把过程也留下来了",
-    title: "下一次，不必再从空白开始",
-    description: "做完原型后，我把这次真正有效的做法整理成了一套研发 Skill：我负责目标、玩法和取舍，多个 Agent 分工制作；每个版本都要经过试玩、检查和复盘。",
+    kicker: "04 · 最后，把做法带到下一个项目",
+    title: "我不只做出了游戏，也留下了一套 Skill",
+    description: "我把这次从想法到可玩版本的过程整理成 Game Product Studio：先把模糊创意收敛成清晰的核心循环，再组织 Agent 协作开发，并用同一版本完成体验与质量验证。",
     workflow: [
-      { title: "说明任务", subtitle: "目标与边界", owner: "human" },
-      { title: "写清玩法", subtitle: "需求与验收", owner: "human" },
-      { title: "分工制作", subtitle: "多个 Agent 协作", owner: "agent" },
-      { title: "试玩检查", subtitle: "寻找真实问题", owner: "agent" },
-      { title: "决定返工", subtitle: "不合格就重做", owner: "agent" },
-      { title: "更新方法", subtitle: "把经验写回流程", owner: "agent" }
+      { title: "说出想法", subtitle: "先不急着谈实现", owner: "human" },
+      { title: "确认循环", subtitle: "行动、反馈、决策、结果", owner: "human" },
+      { title: "决定怎么做", subtitle: "引擎与协作边界", owner: "human" },
+      { title: "协作开发", subtitle: "Lead 统一集成", owner: "agent" },
+      { title: "冻结版本", subtitle: "所有人检查同一版本", owner: "agent" },
+      { title: "验证交付", subtitle: "QA 与体验复盘", owner: "agent" }
     ],
     workflowLegend: [
       { owner: "human", label: "我来做判断" },
       { owner: "agent", label: "Agent 负责执行" }
     ],
-    gateTitle: "我怎样判断版本能不能继续往前",
+    gateTitle: "Skill 用三次确认控制研发节奏",
     gates: [
-      { label: "玩法能不能跑通", status: "已完成一局" },
-      { label: "版本能不能交付", status: "关键检查通过" },
-      { label: "方法能不能换项目使用", status: "已完成迁移验证" }
+      { label: "核心循环是否说清楚", status: "VIBE GATE" },
+      { label: "是否形成同一候选版本", status: "CANDIDATE" },
+      { label: "质量与体验是否同时通过", status: "QA + REFLECTION" }
     ],
-    packageVersion: "GAME PRODUCT STUDIO · v0.1",
-    packageTitle: "我在这个项目里实际使用的研发 Skill",
-    packageDescription: "里面不是一套万能模板，而是我用过的任务拆解、Agent 协作、版本检查和复盘方法。",
-    downloadLabel: "下载 Skill 包 v0.1",
-    boundary: "这份 Skill 只适合作为学习和研究参考。换一个项目，仍然需要重新判断玩法、资源和技术边界。",
-    closingEyebrow: "回到最初的问题",
-    closingTitle: "汉字的笔画，能不能变成游戏规则？",
-    closingDescription: "这个原型给了我一个肯定但不夸张的答案：可以，而且值得继续做深。",
+    packageVersion: "GAME PRODUCT STUDIO · CODEX SKILL",
+    packageTitle: "从模糊创意到可验证游戏 MVP",
+    packageDescription: "GitHub 仓库包含完整 Skill、协作角色、项目模板、验证脚本以及安装和使用说明。",
+    repositoryLabel: "在 GitHub 查看 Skill",
+    boundary: "这套方法不会替人决定什么游戏值得做。它负责让关键判断发生在正确的时间，并让每次交付都有可检查的证据。",
+    closingEyebrow: "从实现，到拓展",
+    closingTitle: "围绕一个想法，我做出了游戏，也留下了下一次还能使用的方法",
+    closingDescription: "短片负责讲清楚，游戏负责证明它能玩，Skill 则把这次实践变成下一次研发的起点。",
     closingLabel: "再看一次玩法"
   }
 };
