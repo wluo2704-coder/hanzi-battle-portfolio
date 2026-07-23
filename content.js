@@ -26,19 +26,19 @@ window.PORTFOLIO_CONTENT = {
     imageAlt: "笔画战阵像素水墨山河与砚台战场",
     actions: [
       { label: "在线试玩", href: "playable", style: "primary" },
-      { label: "看 20 秒玩法", href: "#film", style: "secondary" }
+      { label: "看 30 秒玩法", href: "#film", style: "secondary" }
     ],
     outcomes: ["把玩法讲清楚", "把游戏做出来", "把方法变成 Skill"]
   },
   film: {
     kicker: "02 · 先把想法讲清楚",
-    title: "20 秒，看懂汉字如何变成一场战斗",
-    description: "短片展示了最核心的一局：玩家写下汉字，系统根据笔画生成不同兵种，玩家组织阵容，然后进入自动战斗。",
-    video: "assets/hanzi-battle-trailer-v1.2.mp4",
+    title: "30 秒，看懂一局如何展开",
+    description: "这支新版本玩法预览从落笔造兵开始，依次展示兵种定位、路线取舍、文人对弈、编队与战斗：玩家写什么、走哪条路、怎样回应，都在改变下一场军阵。",
+    video: "assets/hanzi-battle-trailer-v2.1.mp4",
     poster: "assets/title.png",
-    meta: "20 SEC · 16:9 · v1.2",
-    caption: "20 秒实机玩法短片",
-    transformation: ["写下汉字", "识别笔画", "生成兵种", "排阵开战"]
+    meta: "30 SEC · 16:9 · v2.1 PREVIEW",
+    caption: "30 秒新版本玩法预览",
+    transformation: ["落笔造兵", "择路取势", "文斗赢资源", "排兵迎敌"]
   },
   game: {
     kicker: "03 · 再让想法真正跑起来",
@@ -83,6 +83,6 @@ window.PORTFOLIO_CONTENT = {
     closingEyebrow: "从实现，到拓展",
     closingTitle: "围绕一个想法，我做出了游戏，也留下了下一次还能使用的方法",
     closingDescription: "短片负责讲清楚，游戏负责证明它能玩，Skill 则把这次实践变成下一次研发的起点。",
-    closingLabel: "再看一次玩法"
+    closingLabel: "再看 30 秒玩法"
   }
 };
