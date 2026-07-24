@@ -43,15 +43,15 @@ window.PORTFOLIO_CONTENT = {
   game: {
     kicker: "03 · 再让想法真正跑起来",
     title: "看懂玩法之后，可以亲手玩一局",
-    description: "我把短片中的玩法做成了可试玩版本。你需要用有限笔画组成汉字，选择由字形生成的兵种，再通过阵容和战斗结果判断这次构筑是否有效。",
+    description: "试玩版把一轮玩法做成了完整循环：拖入笔画拼出汉字，铸成兵种并排入队列；打赢后再从补给中挑选新的笔画，进入下一轮构筑。",
     steps: [
-      { number: "01", title: "写下汉字", caption: "你写下的笔画，就是这一局的兵力来源", image: "assets/forge.png", alt: "玩家在田字格中使用笔画造字" },
-      { number: "02", title: "组织出兵", caption: "不同字形会生成不同兵种和阵容", image: "assets/formation.png", alt: "玩家将生成兵种加入出战队列" },
-      { number: "03", title: "查看结果", caption: "阵容进入自动战斗，选择好不好当场见分晓", image: "assets/battle.png", alt: "笔画战阵自动战斗实机画面" }
+      { number: "01", title: "拼字造兵", caption: "拖入笔画，识别成“人”后铸造成新兵", image: "assets/forge-latest.png", alt: "笔画战阵中将汉字人识别为新兵的实机画面" },
+      { number: "02", title: "布阵开战", caption: "把生成的兵种编入队列，再决定何时开战", image: "assets/formation-v0221.png", alt: "笔画战阵 v0.22.1 的出战队列与敌军预览画面" },
+      { number: "03", title: "领取补给", caption: "战后从三份笔画补给中选择一份，带回下一轮", image: "assets/reward-v0221.png", alt: "笔画战阵 v0.22.1 的战后笔画补给选择画面" }
     ],
     playLabel: "立即试玩",
     versionNote: "公开试玩 v0.22.1 · 无需登录 · 建议使用桌面横屏。第一次加载可能时间较长，需要耐心等待。",
-    evidence: ["Unity WebGL", "可以完整玩完一局", "每次选择都有结果"]
+    evidence: ["Unity WebGL", "拼字 → 布阵 → 战斗 → 补给", "公开试玩 v0.22.1"]
   },
   skill: {
     kicker: "04 · 最后，把做法带到下一个项目",
