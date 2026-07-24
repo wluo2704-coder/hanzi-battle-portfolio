@@ -8,7 +8,7 @@ window.PORTFOLIO_CONTENT = {
     subtitle: "STROKE BATTLE"
   },
   links: {
-    playable: "https://bihua-zhen-play.wluo2704.chatgpt.site",
+    playable: "https://hanzi-battlefront-221.wluo2704.chatgpt.site",
     skillRepository: "https://github.com/wluo2704-coder/game-product-studio-skill"
   },
   navigation: [
@@ -33,12 +33,12 @@ window.PORTFOLIO_CONTENT = {
   film: {
     kicker: "02 · 先把想法讲清楚",
     title: "30 秒，看懂一局如何展开",
-    description: "这支新版本玩法预览从落笔造兵开始，依次展示兵种定位、路线取舍、文人对弈、编队与战斗：玩家写什么、走哪条路、怎样回应，都在改变下一场军阵。",
-    video: "assets/hanzi-battle-trailer-v2.1.mp4",
+    description: "这支新版本玩法预览从落笔造兵开始，依次展示兵种定位、路线取舍、编队与战斗：玩家写什么、走哪条路、怎样回应，都在改变下一场军阵。",
+    video: "assets/hanzi-battle-trailer-v2.8.mp4",
     poster: "assets/title.png",
-    meta: "30 SEC · 16:9 · v2.1 PREVIEW",
-    caption: "30 秒新版本玩法预览",
-    transformation: ["落笔造兵", "择路取势", "文斗赢资源", "排兵迎敌"]
+    meta: "30 SEC · 16:9 · v2.8 PREVIEW",
+    caption: "30 秒最新玩法预览",
+    transformation: ["落笔造兵", "择路取势", "排兵布阵", "实机交锋"]
   },
   game: {
     kicker: "03 · 再让想法真正跑起来",
@@ -50,7 +50,7 @@ window.PORTFOLIO_CONTENT = {
       { number: "03", title: "查看结果", caption: "阵容进入自动战斗，选择好不好当场见分晓", image: "assets/battle.png", alt: "笔画战阵自动战斗实机画面" }
     ],
     playLabel: "立即试玩",
-    versionNote: "公开版本 v0.12 · 无需登录 · 即开即玩。页面画面来自后续视觉迭代，可能存在界面差异。",
+    versionNote: "公开试玩 v0.22.1 · 无需登录 · 建议使用桌面横屏。第一次加载可能时间较长，需要耐心等待。",
     evidence: ["Unity WebGL", "可以完整玩完一局", "每次选择都有结果"]
   },
   skill: {
